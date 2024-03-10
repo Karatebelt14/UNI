@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+
+body 
+{
+
+    background: linear-gradient(#4090CE, #FDEBBF);
+}
+
+.uni
+{
+    width: 50px;
+} 
+
+ .header
+{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   z-index: 100;
+}
+
+html
+{
+    min-height: 100%;
+}
+
+.navbar a
+{
+    position: relative;
+    font-size: 15px;
+    color: white;
+    font-weight: light;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.navbar a::before
+{
+ content:'';
+ position: absolute;
+ top: 100%;
+ left: 0;
+ width: 0;   
+ height: 2px;
+ background: white;
+ transition: .3s;   
+}
+.navbar a:hover:before
+{
+width: 100%;
+}   
+.navbar a.active::before
+{
+    width: 100%;
+}
+header .search-box{
+    flex: 0.5;
+    position: relative;
+}
+
+.search-box input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: white;
+    border-radius: 30px;
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+}
+
+.search-box button{
+    cursor:pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: scale(0.9);
+    background: #202C4A;
+}
+
+.table
+{
+    margin-top: 10%;
+    width: 80%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.txt_1
+{
+    width: 50%;
+    font-size: 90;
+    font-weight: bold;
+    background-image: linear-gradient(-90deg, #6A8AFC, #001355 45%, #001355 70%);
+    background-clip: text;
+    color: transparent; 
+}
+
+.txt_2
+{
+    width: 50%;
+    font-size: 20px;
+    font-weight: 500;
+    color:#001355;
+}
+
+.btn_1
+{
+    margin-top: 50px;
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #001355;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    box-shadow: 2px 2px 2px rgb(36,35,35);
+    cursor: pointer;
+}
+
+.btn_1:hover
+{
+    background: rgb(255, 255, 255);
+    color:#001355;
+    font-weight: 600;
+}
+.img_1
+{
+    text-align: right;
+}
