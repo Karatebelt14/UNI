@@ -24,11 +24,13 @@ body
    top: 0;
    left: 0;
    width: 100%;
-   padding: 20px;
+   height: 10%;
+   padding: 25px 35px;
    display: flex;
    justify-content: space-evenly;
    align-items: center;
    z-index: 100;
+   backdrop-filter: blur(50px);
   
    
 
@@ -259,3 +261,49 @@ header .search-box{
     justify-content: center;
     align-items: center;
 }
+
+.footer{
+    width: 100%;
+    margin-top: 100px;
+    height: 35%;
+    background-color: #D9D9D9;
+    
+    text-align: center; 
+    box-shadow: 2px 2px 10px 2px rgb(70, 70, 70);
+}
+
+.icons{
+    padding-top: 90px;
+    padding-bottom: 20px;
+    display: block;
+    border-bottom: solid 2px;
+    border-color: #3838385d;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+.icons a{
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+    
+}
+.icons a img{
+    width: 30px; 
+    transition: .3s ease;
+}
+
+.icons a img:hover{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+}
+
+.credit{
+    padding-top: 20px;
+    display: block;
+    font-size: 10px;
+}
+
