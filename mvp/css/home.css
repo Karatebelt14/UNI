@@ -110,7 +110,7 @@ header .search-box{
 .txt_1
 {
     width: 50%;
-    font-size: 90;
+    font-size:80;
     font-weight: bold;
     background-image: linear-gradient(-90deg, #6A8AFC, #001355 45%, #001355 70%);
     background-clip: text;
@@ -139,6 +139,8 @@ header .search-box{
     font-weight: 400px;
     box-shadow: 2px 2px 2px rgb(36,35,35);
     cursor: pointer;
+    transform: scale(1.0);
+    transition: all 0.3s ease-in-out;
 }
 
 .btn_1:hover
@@ -146,6 +148,8 @@ header .search-box{
     background: rgb(255, 255, 255);
     color:#001355;
     font-weight: 600;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
 .img_1
 {
