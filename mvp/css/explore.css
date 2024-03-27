@@ -211,8 +211,7 @@ header .search-box{
     animation: movingPictures 15s infinite;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
 .container2{
     text-align: center;
