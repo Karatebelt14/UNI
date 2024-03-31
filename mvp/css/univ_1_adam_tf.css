@@ -113,6 +113,30 @@ header .search-box{
     margin-right: 150px;
     
 }
+/* social icons */
+.icons a{
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+    
+}
+.icons a img{
+    width: 30px; 
+    transition: .3s ease;
+}
+
+.icons a img:hover{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+}
+
+.credit{
+    padding-top: 20px;
+    display: block;
+    font-size: 10px;
+}
 /* picture*/
 .container_building{
     background-image: linear-gradient(rgba(0, 0, 0, 0.485),rgba(0, 0, 0, 0.825)),url(/mvp/assets/explore/adam-build.jpg);
@@ -151,156 +175,22 @@ header .search-box{
     width: 40%;
     height: 50px;
 }
-.container3 {
-    display: block;
-    color: white;
-    text-shadow: 5px 5px 2px rgb(24, 24, 24);
-}
-.container3 h1{
-    font-size: 20px;
-    font-weight: 500;
-
-}
-
-.container_building button
-{
-    margin-top: 50px;
-    width: 30%;
-    height: 60px;
-    border: none;
-    border-radius: 30px;
-    background-color: #004B98;
-    text-align: center;
-    color: white;
-    font-size: 18px;
-    font-weight: 400px;
-    box-shadow: 2px 2px 2px rgb(36,35,35);
-    cursor: pointer;
-    transform: scale(1.0);
-    transition: all 0.3s ease-in-out;
-}
-.container_building button:hover
-{
-    background: rgb(255, 255, 255);
-    color:#001355;
-    font-weight: 600;
-    transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
-}
-
-.container_about{
-    height: 80vh;
-    background-image: linear-gradient( 240deg, #004b98,#6DD5FA,#FFFFFF);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.tuition_tbl{
+    width: 100%;
     padding: 5rem;
-}
-.about_picture{
-    width: 50%;
-    margin: 50px;
-}
-.about_picture img{
-    width: 400px;
-    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.36));
-}
-.about_info{
+    font-size: 20px;
     color: white;
-    padding: 2rem;
-    text-align: justify;
-    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.53));
-}
-.about_info h1{
-    font-size: 3rem;
-    margin: 2rem;
-}
-.about_info p{
-    margin: 2rem;
-}
-.container3{
-    background-color: #3e7dbd;
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-}
-
-.mission{
     text-align: center;
-
-}
-.mission h1{
-    font-size: 35px;
-    padding: 2rem;
-}
-.mission p{
-    text-shadow: none;
-    font-size: 17px;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* social icons */
-.icons a{
-    text-decoration: none;
-    margin-left: 25px;
-    margin-right: 25px;
-    
-    
+.tuition_tbl th{
+    background-color: #D9D9D9;
+    color: black;
+    font-size: 30px;
+    padding: 0.5rem;
 }
-.icons a img{
-    width: 30px; 
-    transition: .3s ease;
+.tuition_tbl td{
+    background-color: #D9D9D9;
+    padding: 0.5rem;
+    color: black;
 }
-
-.icons a img:hover{
-    transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-}
-
-.credit{
-    padding-top: 20px;
-    display: block;
-    font-size: 10px;
-}
-
